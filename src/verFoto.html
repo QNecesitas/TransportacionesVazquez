@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <title>Visor de fotos</title>
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/verFoto.css">
+  <meta name="description" content="Visor de fotos de TransportacionesVazquez">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<section class="sectVerFoto">
+  <h1>Ver foto</h1>
+  <img id="imgVerFoto" alt="Foto a visualizar, por favor espere...">
+  <div class="verFoto_botones">
+    <button id="btnAnterior" onclick="anteriorTransp()">Anterior</button>
+    <button id="btnSiguiente" onclick="siguienteTransp()">Siguiente</button>
+  </div>
+  <button id="btnVolver" onclick="volver()">Volver</button>
+</section>
+
+   <hr class="hr_footer"/>
+   <footer>
+     <div>
+       <h2>Empresa</h2>
+       <a href="index.html">Men&uacute principal</a>
+       <a href="acercaDe.html">Sobre nosotros</a>
+       <a href="galeria.html">Fotos</a>
+     </div>
+     <div>
+       <h2>Servicios</h2>
+       <a href="transportaciones.html">Transportaciones</a>
+       <a href="impoexportacion.html">Piezas y carb&oacuten</a>
+       <a href="operador_logistico.html">Operador log&iacutestico</a>
+     </div>
+     <div>
+       <h2>Contacto</h2>
+       <a href="index.html#ref contacto">Info de contacto</a>
+     </div>
+   </footer>
+
+
+<script src="js/vendor/modernizr-{{MODERNIZR_VERSION}}.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/verFoto.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+
+</body>
+</html>
+

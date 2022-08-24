@@ -1,0 +1,681 @@
+/*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
+
+/* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+  color: #ffffff;
+  line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+  resize: vertical;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+html{
+  background-color: black;
+}
+
+/*Header-------------------------------------------------------------------->*/
+html{
+  font-size: smaller;
+  font-family: 'Noto Sans Display', sans-serif;
+}
+
+hr{
+  margin: 0px;
+}
+
+.header_toolbar{
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.header_toolbar img{
+  width: 50px;
+  height: 50px;
+}
+
+.header_toolbar h1{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.header_Image img{
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  content: url("img/header_piezasvcarb.png");
+}
+
+
+
+/*SectGeneral*/
+.sectGeneral{
+  background-image: url(img/backgcam.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-size: contain;
+}
+
+.sectGeneral_cardElevado{
+  position: relative;
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 96%;
+  margin-top: -10px;
+  border-radius: 20px;
+  border: 2px solid #f9a433;
+  background-color: black;
+}
+
+.sectGeneral_cardElevado div{
+  display: flex;
+  align-items: center;
+}
+
+.sectGeneral_cardElevado img{
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.sectGeneral_cardElevado h4{
+    color:#f9b33b;
+}
+
+.sectGeneral p{
+  margin-left: 20px;
+  margin-right: 20px;
+  text-indent: 10px;
+  text-align: justify;
+}
+
+
+
+/*Sect piezas*/
+.sectPiezas{
+  margin-top: 50px;
+  background-image: url(img/backgcam.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-size: contain;
+}
+
+.sectPiezas_cardElevado{
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 96%;
+  border-radius: 20px;
+  border: 2px solid #f9a433;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+
+.sectPiezas_cardElevado img{
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.sectPiezas_cardElevado h4{
+    color: #f9b33b;
+}
+
+.sectPiezas p{
+  margin-left: 20px;
+  margin-right: 20px;
+  text-indent: 10px;
+  text-align: justify;
+}
+
+
+
+
+
+/*Sect Carbon*/
+.sectCarbon{
+  background-image: url(img/backgcam.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-size: contain;
+  margin-top: 50px;
+}
+
+.sectCarbon_cardElevado{
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 96%;
+  border-radius: 20px;
+  border: 2px solid #f9a433;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+
+.sectCarbon_cardElevado h4{
+    color: #f9b33b;
+}
+
+.sectCarbon_cardElevado img{
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.sectCarbon p{
+  margin-left: 20px;
+  margin-right: 20px;
+  text-indent: 10px;
+  text-align: justify;
+}
+
+
+
+
+
+/*Sección footer-------------------------------------------------------------------->*/
+footer{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+footer a{
+  color: white;
+  text-decoration: none;
+}
+
+footer a :hover{
+  text-decoration: underline;
+}
+
+footer{
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  background: linear-gradient(-3deg, #de9c3126, transparent);
+}
+
+footer div{
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hr_footer{
+  margin-top: 100px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Diseno responsitivo
+   ========================================================================== */
+@media only screen and (max-width: 600px){
+  /*Header-------------------------------------------------------------------->*/
+  html{
+    font-size: smaller;
+    font-family: 'Noto Sans Display', sans-serif;
+  }
+
+  hr{
+    margin: 0px;
+  }
+
+  .header_toolbar{
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+
+  .header_toolbar img{
+    width: 50px;
+    height: 50px;
+  }
+
+  .header_toolbar h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .header_Image img{
+    width: 100%;
+    height: 30%;
+    object-fit: cover;
+    content: url("img/header_piezasvcarb.png");
+  }
+
+
+
+
+  /*SectGenerl*/
+  .sectGeneral_cardElevado{
+    position: relative;
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 94%;
+    margin-top: -10px;
+    border-radius: 20px;
+    border: 2px solid #f9a433;
+    background-color: black;
+  }
+
+  .sectGeneral_cardElevado div{
+    display: flex;
+    align-items: center;
+  }
+
+  .sectGeneral_cardElevado img{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .sectGeneral p{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-indent: 10px;
+    text-align: justify;
+  }
+
+
+
+
+
+  /*Sect piezas*/
+  .sectPiezas{
+    margin-top: 50px;
+  }
+
+  .sectPiezas_cardElevado{
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 94%;
+    border-radius: 20px;
+    border: 2px solid #f9a433;
+    background-color: black;
+    display: flex;
+    align-items: center;
+  }
+
+  .sectPiezas_cardElevado img{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .sectPiezas p{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-indent: 10px;
+    text-align: justify;
+  }
+
+
+
+
+
+  /*Sect piezas*/
+  .sectCarbon{
+    margin-top: 50px;
+  }
+
+  .sectCarbon_cardElevado{
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 94%;
+    border-radius: 20px;
+    border: 2px solid #f9a433;
+    background-color: black;
+    display: flex;
+    align-items: center;
+  }
+
+  .sectCarbon_cardElevado img{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .sectCarbon p{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-indent: 10px;
+    text-align: justify;
+  }
+
+
+
+
+
+
+  /*Sección footer-------------------------------------------------------------------->*/
+  footer{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  footer a{
+    color: white;
+    text-decoration: none;
+  }
+
+  footer a :hover{
+    text-decoration: underline;
+  }
+
+  footer{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    background: linear-gradient(-3deg, #de9c3126, transparent);
+  }
+  footer div{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10px;
+  }
+
+  .hr_footer{
+    margin-top: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden,
+[hidden] {
+  display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  /* 1 */
+}
+
+/*
+ * Extends the .sr-only class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.sr-only.focusable:active,
+.sr-only.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: inherit;
+  width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+  visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix::before,
+.clearfix::after {
+  content: " ";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media print,
+  (-webkit-min-device-pixel-ratio: 1.25),
+  (min-resolution: 1.25dppx),
+  (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+  *,
+  *::before,
+  *::after {
+    background: #fff !important;
+    color: #000 !important;
+    /* Black prints faster */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+  }
+
+  abbr[title]::after {
+    content: " (" attr(title) ")";
+  }
+
+  /*
+   * Don't show links that are fragment identifiers,
+   * or use the `javascript:` pseudo protocol
+   */
+  a[href^="#"]::after,
+  a[href^="javascript:"]::after {
+    content: "";
+  }
+
+  pre {
+    white-space: pre-wrap !important;
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /*
+   * Printing Tables:
+   * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
+   */
+  thead {
+    display: table-header-group;
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+
