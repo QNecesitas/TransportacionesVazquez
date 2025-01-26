@@ -46,3 +46,9 @@ Details the transportation service for parts and coal. It explains how the compa
 A visual collection showcasing examples of the services provided, including images of the trucks, logistics processes, and successful deliveries. Designed to convey professionalism and reliability.
 
 ---
+
+## Screenshots
+<img src="https://github.com/QNecesitas/TransportacionesVazquez/blob/master/screenshots/transp_2.jpg">
+<img src="https://github.com/QNecesitas/TransportacionesVazquez/blob/master/screenshots/transp_1.jpg">
+<img src="https://github.com/QNecesitas/TransportacionesVazquez/blob/master/screenshots/transp_3.jpg">
+
